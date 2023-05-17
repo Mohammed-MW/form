@@ -9,13 +9,11 @@ import { Component } from '@angular/core';
 export class SignUpComponent {
 
   newUser: User = new User("", "", "", "");
-  newUseInfo: any = ["", "", "", ""]
 
   onSubmit(): void {
 
 
     console.log(this.newUser);
-    this.newUseInfo = this.newUser;
 
   }
 
